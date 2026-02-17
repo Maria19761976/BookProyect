@@ -41,7 +41,7 @@ public class Main {
 
 
 
-        System.out.println("========== LISTA DE LIBROS ==========");
+        System.out.print ("LISTA DE LIBROS ");
         printBook(book1);
         printBook(book2);
         printBook(book3);
@@ -50,7 +50,7 @@ public class Main {
 
 
 
-        System.out.println("\n===== LIBRO MODIFICADO (book1) =====");
+        System.out.println("\n LIBRO MODIFICADO (book1) ");
         book1.setTitle("It - Edición Especial");
         book1.setDescription("Edición de coleccionista con contenido exclusivo e ilustraciones.");
         book1.setIsbn("978-0-000-00000-0");
